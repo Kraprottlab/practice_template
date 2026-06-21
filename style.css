@@ -8,3 +8,7 @@
   --border:rgba(255, 255, 255, 0.12); /*境界線 半透明はrgbaであらわす0.12は12%*/
   --radius:18px; /*角丸*/
 }
+
+body {
+  background-color: red !important;
+}
