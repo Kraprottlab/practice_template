@@ -10,5 +10,9 @@
 }
 
 body {
-  background-color: red !important;
+  background-color: var(--bg); /* 背景色に変数（ネイビー）を適用 */
+  color: var(--text);          /* 文字色に変数（ホワイト）を適用 */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
 }
